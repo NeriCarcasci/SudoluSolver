@@ -1,10 +1,10 @@
 # SudoluSolver
 
-##Description:
+## Description:
 This project is a Python program that solves Sudoku puzzles using a backtracking algorithm. The program can solve any valid Sudoku puzzle, including puzzles with multiple solutions, in a fast and efficient manner.
 
 
-###What is Backtracking?
+### What is Backtracking?
 A backtracking algorithm is a brute-force algorithm that is used to solve problems by incrementally building a solution candidate and then rejecting it as soon as it is determined to be invalid. The algorithm then backtracks to the previous state and tries a different solution candidate.
 
 In the case of a Sudoku puzzle, the backtracking algorithm works by systematically filling each empty cell with a candidate value (typically 1-9) and then checking whether the current state is valid by ensuring that the same value does not appear twice in the same row, column or sub-grid. If the current state is invalid, the algorithm backtracks to the previous state and tries a different candidate value. If there are no more candidate values to try, the algorithm backtracks even further until it finds a previous state with more candidates to try.
